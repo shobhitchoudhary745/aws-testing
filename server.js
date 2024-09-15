@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: `Hello from AWS Server from my server ${process.env.MESSAGE}`,
+    message: `Hello from AWS Server Kuldeep SO Shobhit ${process.env.MESSAGE}`,
   });
 });
 
